@@ -21,8 +21,7 @@ const Tables = () => {
     })
 
 
-    const[searchquery, setSearchQuery] = useState('')
-
+   
     const handleChange = (e:React.ChangeEvent<HTMLInputElement>) => {
         setFilters({...filters,
             [e.target.name]: e.target.value
@@ -32,9 +31,7 @@ const Tables = () => {
         
     }
 
-    const filteredProjects = projects.filter((project) => (
-        searchquery === " " || Object.values(project).some((value) => value.toLowerCase().includes(searchquery.toLowerCase())))
-    && 
+    const filteredProjects = projects.filter((project) => 
     (filters.name === " " || project.client.toLowerCase().includes(filters.name.toLowerCase()))
     && 
     (filters.email === " " || project.email.toLowerCase().includes(filters.email.toLowerCase()))
