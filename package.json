@@ -1,10 +1,10 @@
 {
+  "homepage": "https://merhan-mohamed.github.io/Control-By-Filtering",
   "name": "react-store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://merhan-mohamed.github.io/Control-By-Filtering",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
