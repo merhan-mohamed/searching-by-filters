@@ -66,7 +66,7 @@ const Tables = () => {
 
     {/*Pagnation*/}
     const[currentPage, setCurrentPage] = useState(1)
-    const ItemsPerPage = 2
+    const ItemsPerPage = 7
     const StartIndex = (currentPage - 1) * ItemsPerPage
     const currentProjects = filteredProjects.slice(StartIndex, StartIndex + ItemsPerPage )
     const totalPages = Math.ceil(filteredProjects.length/ItemsPerPage)
