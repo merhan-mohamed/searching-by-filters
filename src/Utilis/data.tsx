@@ -80,5 +80,55 @@ export const data= [
         status: "completed",
         date:"11/04/2023",
         image: woman
+    },
+    {
+        client: "Basma Yasser",
+        country: "Dubai",
+        email: "Basma@gmail.com",
+        project: "Frontend Platform",
+        progress: "80%",
+        status: "initializing",
+        date:"11/04/2023",
+        image: woman
+    },
+    {
+        client: "Aya Samir",
+        country: "Barzil",
+        email: "Basma@gmail.com",
+        project: "Frontend Platform",
+        progress: "80%",
+        status: "initializing",
+        date:"11/04/2023",
+        image: woman
+    },
+    {
+        client: "Faoud Sayed",
+        country: "spain",
+        email: "Basma@gmail.com",
+        project: "backend Platform",
+        progress: "40%",
+        status: "initializing",
+        date:"11/09/2023",
+        image: man
+    },
+    {
+        client: "Abdallah Mohamed",
+        country: "India",
+        email: "Abdallah@gmail.com",
+        project: "backend Platform",
+        progress: "40%",
+        status: "initializing",
+        date:"11/09/2023",
+        image: man
+    },
+    {
+        client: "Fatma Fathy",
+        country: "India",
+        email: "Abdallah@gmail.com",
+        project: "backend Platform",
+        progress: "100%",
+        status: "completed",
+        date:"11/03/2022",
+        image: woman
     }
 ]
